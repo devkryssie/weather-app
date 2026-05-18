@@ -104,7 +104,6 @@ class="text-3xl font-bold"
 
 </div>
 
-<script src="env.js"></script>
 
 <script>
 
@@ -120,7 +119,7 @@ alert("Please enter a city");
 return;
 }
 
-fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=42fc046c6a60eda2832e17efd9363cc5&units=metric`)
 
 .then(res => res.json())
 
